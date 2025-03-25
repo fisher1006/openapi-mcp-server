@@ -1,4 +1,5 @@
 # OpenAPI MCP Server
+[![smithery badge](https://smithery.ai/badge/@fisher1006/openapi-mcp-server)](https://smithery.ai/server/@fisher1006/openapi-mcp-server)
 
 A Model Context Protocol (MCP) server for Claude/Cursor that enables searching and exploring OpenAPI specifications through oapis.org.
 
@@ -29,6 +30,15 @@ The MCP works by applying a 3 step process :
 
 ## Installation
 
+### Installing via Smithery
+
+To install openapi-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@fisher1006/openapi-mcp-server):
+
+```bash
+npx -y @smithery/cli install @fisher1006/openapi-mcp-server --client claude
+```
+
+### Manual Installation
 Run and follow instructions:
 
 ```bash
